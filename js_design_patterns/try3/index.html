@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <title>Cat Clicker 3</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="nav"></div>
+
+      <div class="main">
+        <button id="admin-btn">ADMIN</button>
+        <form action="" name="adminForm" id="admin-form">
+          <input type="text" id="new-cat-name" placeholder="Cat name" value=""/>
+          <input type="text" id="new-cat-image" placeholder="Cat iamge URL" value=""/>
+          <input type="text" id="new-cat-count" placeholder="Click count" value=""/>
+          <button>SUBMIT</button>
+        </form>
+
+        <h3 id="cat-name"></h3>
+        <p>Clicks: <span id="click-count"></span></p>
+        <div class="image-area">
+          <img id="cat-photo" src="" alt="">
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

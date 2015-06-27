@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  /*width: 100%;*/
+  overflow: hidden;
+}
+#nav, .main {
+  margin: 0;
+  border: none;
+  min-height: 500px;
+  display: inline-block;
+}
+
+#nav {
+  background: #fff;
+  width: 20%;
+  padding: 10px;
+  float: left;
+  list-style-type: none;
+}
+
+#nav li {
+  margin-bottom: 5px;
+  font-size: 1.4em;
+  border: 1px solid #ddd;
+  padding: 3px 0 3px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+#nav li:hover {
+  background-color: #fddfff;
+  cursor: pointer;
+}
+
+.main {
+  overflow: hidden;
+  background: #fff;
+  padding: 10px;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}

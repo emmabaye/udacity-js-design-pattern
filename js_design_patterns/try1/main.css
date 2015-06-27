@@ -1,0 +1,27 @@
+#nav {
+  display: inline-block;
+  list-style-type: none;
+  background: #DDD;
+  width: 20%;
+  min-height: 500px;
+  padding: 10px;
+  float: left;
+}
+
+#nav li {
+  margin-bottom: 5px;
+  font-size: 1.4em;
+}
+
+.main {
+  display: inline-block;
+  width: 70%;
+  min-height: 500px;
+  padding: 10px;
+  background: #faedfa;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
